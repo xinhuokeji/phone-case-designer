@@ -8,10 +8,10 @@
     "skipLibCheck": true,
 
     /* Bundler mode */
-    "moduleResolution": "bundler",
+    "moduleResolution": "node",
     "allowImportingTsExtensions": true,
-    "verbatimModuleSyntax": true,
-    "moduleDetection": "force",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
     "noEmit": true,
     "jsx": "react-jsx",
 
@@ -25,8 +25,7 @@
     /* Node.js support */
     "types": ["node"],
     "allowJs": true,
-    "resolveJsonModule": true,
-    "isolatedModules": true
+    "esModuleInterop": true
   },
   "include": ["src", "*.ts"]
 }
